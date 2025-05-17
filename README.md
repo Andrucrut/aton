@@ -6,34 +6,10 @@ REST API для управления пользователями: регист�
 
 Перед запуском убедитесь, что у вас установлено:
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
-- [PostgreSQL](https://www.postgresql.org/download/) или другая БД (если используется)
-- (опционально) [Visual Studio](https://visualstudio.microsoft.com/) / [Rider](https://www.jetbrains.com/rider/) / VS Code
-
 ## ⚙️ Запуск проекта
 cd /Users/andrey/RiderProjects/WebApplication1/WebApplication1/
 dotnet run
 
-Стуктура проекта
-WebApplication1/
-├── Controllers/
-│   └── UserController.cs
-├── DTOs/
-│   ├── UserCreateDto.cs
-│   ├── UserLoginDto.cs
-│   ├── UserLoginChangeDto.cs
-│   ├── UserPasswordChangeDto.cs
-│   ├── UserUpdateDto.cs
-│   ├── UserAgeFilterDto.cs
-│   └── UserViewDto.cs
-├── Interfaces/
-│   └── IUserService.cs
-├── Services/
-│   └── UserService.cs
-├── Models/
-│   └── User.cs
-├── Program.cs
-└── appsettings.json
 
 Запросы
 POST /api/Users - Создание пользователя
